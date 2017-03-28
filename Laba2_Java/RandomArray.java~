@@ -1,0 +1,15 @@
+//package Inp;
+import java.util.Random;
+public class RandomArray{
+	public static void Input_array(int array[][], int m, int n){
+		Random generator = new Random();
+		int gn;
+		
+		for (int i=0; i<m; i++)
+			for(int j=0; j<n; j++){
+				gn=generator.nextInt(10);
+				array[i][j] = gn;
+			}
+	}	
+}		
+

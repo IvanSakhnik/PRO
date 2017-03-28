@@ -1,0 +1,1428 @@
+java -jar Main.jar
+Thread1 started
+Thread2 started
+Thread3 started
+Thread4 started
+Thread5 started
+P1 add_elem: top = 0; elem = 0
+P1 acquire Sem2
+P1 start waiting for Sem1
+P3 get_elem: top = -1
+P4 add_elem: top = 0; elem = 0
+P4 release Sem1
+P4 start waiting for Sem2
+P1 finish waiting for Sem1
+P4 finish waiting for Sem2
+Thread3 changes: 
+ Byte value: 0
+ Short value: 19917
+ Int value: 398302782
+ Long value: -8112728628969447563
+ Char value: Ü
+P5 add_elem: top = 1; elem = 1
+Thread5 changes: 
+P4 add_elem: top = 2; elem = 2
+ Byte value: 34
+ Short value: 24226
+ Int value: 398302782
+ Long value: 3425999160508349665
+ Char value: 
+P1 add_elem: top = 3; elem = 3
+P1 acquire Sem2
+P1 start waiting for Sem1
+P1 finish waiting for Sem1
+P4 release Sem1
+P4 start waiting for Sem2
+P4 finish waiting for Sem2
+P2 get_elem: top = 2
+Thread2 changes: 
+P4 add_elem: top = 3; elem = 3
+ Byte value: 108
+ Short value: 24226
+ Int value: 12237676
+ Long value: 4020622293676497259
+ Char value: 8
+P4 release Sem1
+P4 start waiting for Sem2
+P2 get_elem: top = 2
+Thread2 changes: 
+P5 add_elem: top = 3; elem = 3
+ Byte value: 61
+ Short value: 24226
+ Int value: -1340952841
+ Long value: -215299209745501106
+ Char value: 
+P1 add_elem: top = 4; elem = 4
+P1 acquire Sem2
+P1 start waiting for Sem1
+P1 finish waiting for Sem1
+P1 add_elem: top = 5; elem = 5
+P1 acquire Sem2
+P1 start waiting for Sem1
+P3 get_elem: top = 4
+Thread5 changes: 
+P4 finish waiting for Sem2
+P4 add_elem: top = 5; elem = 5
+P4 release Sem1
+P4 start waiting for Sem2
+P4 finish waiting for Sem2
+P4 add_elem: top = 6; elem = 6
+P4 release Sem1
+P4 start waiting for Sem2
+ Byte value: 100
+ Short value: 28136
+ Int value: -1340952841
+ Long value: -4664448155434447253
+ Char value: G
+Thread3 changes: 
+ Byte value: 100
+ Short value: 28104
+ Int value: 444748781
+ Long value: 7436028392714023904
+ Char value: ª
+P3 get_elem: top = 5
+Thread3 changes: 
+ Byte value: 100
+ Short value: 21987
+ Int value: -83371439
+ Long value: -3781332987481452366
+ Char value: f
+P2 get_elem: top = 4
+Thread2 changes: 
+P5 add_elem: top = 5; elem = 5
+P1 finish waiting for Sem1
+P1 add_elem: top = 6; elem = 6
+P1 acquire Sem2
+P1 start waiting for Sem1
+P1 finish waiting for Sem1
+P1 add_elem: top = 7; elem = 7
+P1 acquire Sem2
+P1 start waiting for Sem1
+ Byte value: 50
+ Short value: 21987
+ Int value: 912989543
+ Long value: 5530577122365654163
+ Char value: U
+P4 finish waiting for Sem2
+P4 add_elem: top = 8; elem = 8
+P4 release Sem1
+P4 start waiting for Sem2
+P4 finish waiting for Sem2
+P4 add_elem: top = 9; elem = 9
+P4 release Sem1
+P4 start waiting for Sem2
+Thread5 changes: 
+ Byte value: 100
+ Short value: 28401
+ Int value: 912989543
+ Long value: 5586569363119326663
+ Char value: ¨
+P5 add_elem: top = 10; elem = 10
+Thread5 changes: 
+ Byte value: 102
+ Short value: 14343
+ Int value: 912989543
+ Long value: 2860258682078801804
+ Char value: Æ
+P3 get_elem: top = 9
+Thread3 changes: 
+ Byte value: 102
+ Short value: 30497
+ Int value: 1350966749
+ Long value: 525487715550293169
+ Char value: %
+P2 get_elem: top = 8
+Thread2 changes: 
+P1 finish waiting for Sem1
+ Byte value: 116
+ Short value: 30497
+ Int value: 905605564
+ Long value: -3601403074762005961
+ Char value: Q
+P1 add_elem: top = 9; elem = 9
+P1 acquire Sem2
+P1 start waiting for Sem1
+P3 get_elem: top = 8
+P4 finish waiting for Sem2
+P5 add_elem: top = 9; elem = 9
+Thread3 changes: 
+P1 finish waiting for Sem1
+ Byte value: 116
+ Short value: 6019
+ Int value: 617630271
+ Long value: 315451662958967217
+ Char value: Ð
+P2 get_elem: top = 8
+Thread2 changes: 
+P1 add_elem: top = 9; elem = 9
+ Byte value: 3
+ Short value: 6019
+ Int value: 11529660
+ Long value: 1661314019691815948
+ Char value: 
+P1 acquire Sem2
+P1 start waiting for Sem1
+P4 add_elem: top = 10; elem = 10
+Thread5 changes: 
+P4 release Sem1
+P4 start waiting for Sem2
+P1 finish waiting for Sem1
+P1 add_elem: top = 11; elem = 11
+P1 acquire Sem2
+P1 start waiting for Sem1
+ Byte value: 58
+ Short value: 13627
+ Int value: 11529660
+ Long value: 8577590663204855275
+ Char value: r
+P5 add_elem: top = 12; elem = 12
+Thread5 changes: 
+ Byte value: 3
+ Short value: 22168
+ Int value: 11529660
+ Long value: 4665865253023367007
+ Char value: ß
+P4 finish waiting for Sem2
+P3 get_elem: top = 11
+Thread3 changes: 
+P4 add_elem: top = 12; elem = 12
+ Byte value: 3
+ Short value: 16901
+ Int value: 1658956687
+ Long value: 5675173762121811320
+ Char value:  
+P4 release Sem1
+P4 start waiting for Sem2
+P4 finish waiting for Sem2
+P1 finish waiting for Sem1
+P2 get_elem: top = 11
+Thread2 changes: 
+ Byte value: 33
+ Short value: 16901
+ Int value: 1337362972
+ Long value: 5106709106413557001
+ Char value: >
+P2 get_elem: top = 10
+Thread2 changes: 
+ Byte value: 119
+ Short value: 16901
+ Int value: -442770565
+ Long value: -937463446798665969
+ Char value: o
+P1 add_elem: top = 11; elem = 11
+P1 acquire Sem2
+P1 start waiting for Sem1
+P4 add_elem: top = 12; elem = 12
+P4 release Sem1
+P4 start waiting for Sem2
+P1 finish waiting for Sem1
+P5 add_elem: top = 13; elem = 13
+Thread5 changes: 
+ Byte value: 27
+ Short value: 23852
+ Int value: -442770565
+ Long value: 8554895127303591647
+ Char value: 
+P4 finish waiting for Sem2
+P1 add_elem: top = 14; elem = 14
+P1 acquire Sem2
+P1 start waiting for Sem1
+P3 get_elem: top = 13
+P4 add_elem: top = 14; elem = 14
+P4 release Sem1
+P4 start waiting for Sem2
+P1 finish waiting for Sem1
+Thread3 changes: 
+P4 finish waiting for Sem2
+P1 add_elem: top = 15; elem = 15
+ Byte value: 27
+ Short value: 32233
+ Int value: -1295832332
+ Long value: 6374071205499539121
+ Char value: L
+P4 add_elem: top = 16; elem = 16
+P4 release Sem1
+P4 start waiting for Sem2
+P1 acquire Sem2
+P3 get_elem: top = 15
+Thread3 changes: 
+ Byte value: 27
+ Short value: 12086
+ Int value: -1257549822
+ Long value: 1527777985609611781
+ Char value: ¦
+P4 finish waiting for Sem2
+P2 get_elem: top = 14
+P1 start waiting for Sem1
+P1 finish waiting for Sem1
+Thread2 changes: 
+ Byte value: 60
+ Short value: 12086
+ Int value: -410213433
+ Long value: 4348717658232623181
+ Char value: 
+P1 add_elem: top = 15; elem = 15
+P1 acquire Sem2
+P1 start waiting for Sem1
+P5 add_elem: top = 16; elem = 16
+Thread5 changes: 
+P4 add_elem: top = 17; elem = 17
+ Byte value: 103
+ Short value: 15785
+ Int value: -410213433
+ Long value: -8336752726420435187
+ Char value: 5
+P1 finish waiting for Sem1
+P4 release Sem1
+P4 start waiting for Sem2
+P4 finish waiting for Sem2
+P5 add_elem: top = 18; elem = 18
+Thread5 changes: 
+P4 add_elem: top = 19; elem = 19
+P4 release Sem1
+P4 start waiting for Sem2
+ Byte value: 20
+ Short value: 10443
+ Int value: -410213433
+ Long value: 1816766924800642851
+ Char value: 
+P2 get_elem: top = 18
+Thread2 changes: 
+P3 get_elem: top = 17
+ Byte value: 71
+ Short value: 10443
+ Int value: -663440679
+ Long value: 4706034677399111889
+ Char value: 
+P1 add_elem: top = 18; elem = 18
+P1 acquire Sem2
+P1 start waiting for Sem1
+P4 finish waiting for Sem2
+Thread3 changes: 
+P1 finish waiting for Sem1
+ Byte value: 71
+ Short value: 20821
+ Int value: -470280061
+ Long value: 5461336238835498330
+ Char value: £
+P4 add_elem: top = 19; elem = 19
+P4 release Sem1
+P4 start waiting for Sem2
+P2 get_elem: top = 18
+Thread2 changes: 
+P5 add_elem: top = 19; elem = 19
+ Byte value: 88
+ Short value: 20821
+ Int value: -867590983
+ Long value: -752303226937575090
+ Char value: Ü
+Thread5 changes: 
+P3 get_elem: top = 18
+P1 add_elem: top = 19; elem = 19
+P1 acquire Sem2
+P1 start waiting for Sem1
+P1 finish waiting for Sem1
+P1 add_elem: top = 20; elem = 20
+P1 acquire Sem2
+P1 start waiting for Sem1
+ Byte value: 80
+ Short value: 14535
+ Int value: -867590983
+ Long value: -6274052467660326791
+ Char value: é
+P4 finish waiting for Sem2
+P4 add_elem: top = 21; elem = 21
+P4 release Sem1
+P4 start waiting for Sem2
+P1 finish waiting for Sem1
+Thread3 changes: 
+P4 finish waiting for Sem2
+ Byte value: 80
+ Short value: 6658
+ Int value: 1654078246
+ Long value: 5591422983178112006
+ Char value: I
+P1 add_elem: top = 22; elem = 22
+P1 acquire Sem2
+P1 start waiting for Sem1
+P3 get_elem: top = 21
+Thread3 changes: 
+P2 get_elem: top = 20
+ Byte value: 80
+ Short value: 29952
+ Int value: 587565455
+ Long value: -3229181922061033271
+ Char value: ¾
+P4 add_elem: top = 21; elem = 21
+Thread2 changes: 
+P4 release Sem1
+P4 start waiting for Sem2
+P1 finish waiting for Sem1
+P5 add_elem: top = 22; elem = 22
+P4 finish waiting for Sem2
+ Byte value: 71
+ Short value: 29952
+ Int value: 330680850
+ Long value: 8658934259793247731
+ Char value: `
+P1 add_elem: top = 23; elem = 23
+Thread5 changes: 
+P4 add_elem: top = 24; elem = 24
+P4 release Sem1
+P4 start waiting for Sem2
+P4 finish waiting for Sem2
+P4 add_elem: top = 25; elem = 25
+P4 release Sem1
+P4 start waiting for Sem2
+P1 acquire Sem2
+P1 start waiting for Sem1
+ Byte value: 52
+ Short value: 20387
+ Int value: 330680850
+ Long value: -4097522807810733708
+ Char value: x
+P1 finish waiting for Sem1
+P5 add_elem: top = 26; elem = 26
+Thread5 changes: 
+P2 get_elem: top = 25
+ Byte value: 22
+ Short value: 5831
+ Int value: 330680850
+ Long value: 7226864248867915601
+ Char value: ö
+Thread2 changes: 
+P3 get_elem: top = 24
+ Byte value: 111
+ Short value: 5831
+ Int value: -583086605
+ Long value: 7855831992291968432
+ Char value: 
+Thread3 changes: 
+P1 add_elem: top = 25; elem = 25
+ Byte value: 111
+ Short value: 17951
+ Int value: 615870070
+ Long value: 8590530694950448863
+ Char value: n
+P3 get_elem: top = 24
+Thread3 changes: 
+ Byte value: 111
+ Short value: 25810
+ Int value: -505940126
+ Long value: 2395383002239251535
+ Char value: ¾
+P4 finish waiting for Sem2
+P4 add_elem: top = 25; elem = 25
+P4 release Sem1
+P4 start waiting for Sem2
+P5 add_elem: top = 26; elem = 26
+Thread5 changes: 
+ Byte value: 122
+ Short value: 28270
+ Int value: -505940126
+ Long value: 7116384413871643878
+ Char value: K
+P2 get_elem: top = 25
+P1 acquire Sem2
+P1 start waiting for Sem1
+Thread2 changes: 
+ Byte value: 60
+ Short value: 28270
+ Int value: 1931170087
+ Long value: 8943288312996719764
+ Char value: ê
+P1 finish waiting for Sem1
+P2 get_elem: top = 24
+Thread2 changes: 
+P5 add_elem: top = 25; elem = 25
+ Byte value: 85
+ Short value: 28270
+ Int value: 1032499305
+ Long value: -2468151147020516863
+ Char value: ¿
+P3 get_elem: top = 24
+Thread3 changes: 
+ Byte value: 85
+ Short value: 23519
+ Int value: -236202151
+ Long value: -7705485533624325351
+ Char value: 
+P1 add_elem: top = 25; elem = 25
+P1 acquire Sem2
+P1 start waiting for Sem1
+P1 finish waiting for Sem1
+P1 add_elem: top = 26; elem = 26
+P1 acquire Sem2
+P1 start waiting for Sem1
+P4 finish waiting for Sem2
+P4 add_elem: top = 27; elem = 27
+P4 release Sem1
+P4 start waiting for Sem2
+P4 finish waiting for Sem2
+P4 add_elem: top = 28; elem = 28
+P4 release Sem1
+P4 start waiting for Sem2
+P1 finish waiting for Sem1
+P1 add_elem: top = 29; elem = 29
+P1 acquire Sem2
+P1 start waiting for Sem1
+P1 finish waiting for Sem1
+P1 add_elem: top = 30; elem = 30
+P1 acquire Sem2
+P1 start waiting for Sem1
+P4 finish waiting for Sem2
+P4 add_elem: top = 31; elem = 31
+P4 release Sem1
+P4 start waiting for Sem2
+P4 finish waiting for Sem2
+P4 add_elem: top = 32; elem = 32
+P4 release Sem1
+P4 start waiting for Sem2
+P1 finish waiting for Sem1
+P1 add_elem: top = 33; elem = 33
+P1 acquire Sem2
+P1 start waiting for Sem1
+P1 finish waiting for Sem1
+P1 add_elem: top = 34; elem = 34
+P1 acquire Sem2
+P1 start waiting for Sem1
+P4 finish waiting for Sem2
+P4 add_elem: top = 35; elem = 35
+P4 release Sem1
+P4 start waiting for Sem2
+Thread5 changes: 
+P1 finish waiting for Sem1
+P1 add_elem: top = 36; elem = 36
+P1 acquire Sem2
+P1 start waiting for Sem1
+P4 finish waiting for Sem2
+ Byte value: 105
+ Short value: 3579
+ Int value: -236202151
+ Long value: -4816122199682972439
+ Char value:  
+P4 add_elem: top = 37; elem = 37
+P4 release Sem1
+P4 start waiting for Sem2
+P5 add_elem: top = 38; elem = 38
+P1 finish waiting for Sem1
+P1 add_elem: top = 39; elem = 39
+P1 acquire Sem2
+P1 start waiting for Sem1
+P3 get_elem: top = 38
+P4 finish waiting for Sem2
+P2 get_elem: top = 37
+Thread5 changes: 
+ Byte value: 91
+ Short value: 15295
+ Int value: -236202151
+ Long value: 9003777028855851576
+ Char value: f
+Thread3 changes: 
+ Byte value: 91
+ Short value: 26059
+ Int value: 1523441430
+ Long value: -4201887186990500392
+ Char value: 
+Thread2 changes: 
+P4 add_elem: top = 38; elem = 38
+ Byte value: 93
+ Short value: 26059
+ Int value: 249213022
+ Long value: 3688654150115562732
+ Char value: î
+P1 finish waiting for Sem1
+P4 release Sem1
+P4 start waiting for Sem2
+P2 get_elem: top = 37
+P4 finish waiting for Sem2
+Thread2 changes: 
+P4 add_elem: top = 38; elem = 38
+ Byte value: 5
+ Short value: 26059
+ Int value: 1005827913
+ Long value: 7230247740800995931
+ Char value: ÷
+P1 add_elem: top = 39; elem = 39
+P1 acquire Sem2
+P1 start waiting for Sem1
+P1 finish waiting for Sem1
+P1 add_elem: top = 40; elem = 40
+P1 acquire Sem2
+P1 start waiting for Sem1
+P3 get_elem: top = 39
+P5 add_elem: top = 40; elem = 40
+Thread5 changes: 
+ Byte value: 89
+ Short value: 17596
+ Int value: 1005827913
+ Long value: -8608535493860491515
+ Char value: ¨
+Thread3 changes: 
+ Byte value: 89
+ Short value: 15159
+ Int value: 2070168700
+ Long value: -3999709434403825084
+ Char value: 
+P3 get_elem: top = 39
+Thread3 changes: 
+ Byte value: 89
+ Short value: 15887
+ Int value: -2105019381
+ Long value: -7410658143314791515
+ Char value: ú
+P4 release Sem1
+P4 start waiting for Sem2
+P5 add_elem: top = 40; elem = 40
+P4 finish waiting for Sem2
+Thread5 changes: 
+P2 get_elem: top = 39
+ Byte value: 64
+ Short value: 6522
+ Int value: -2105019381
+ Long value: 4059690418919989022
+ Char value: ­
+P4 add_elem: top = 40; elem = 40
+Thread2 changes: 
+ Byte value: 38
+ Short value: 6522
+ Int value: -47150257
+ Long value: 8625183873471293680
+ Char value: 
+P4 release Sem1
+P4 start waiting for Sem2
+P4 finish waiting for Sem2
+P3 get_elem: top = 39
+P1 finish waiting for Sem1
+Thread3 changes: 
+P5 add_elem: top = 40; elem = 40
+ Byte value: 38
+ Short value: 15093
+ Int value: -1947910664
+ Long value: -7045470506838939385
+ Char value: ³
+P2 get_elem: top = 39
+Thread2 changes: 
+P1 add_elem: top = 40; elem = 40
+ Byte value: 45
+ Short value: 15093
+ Int value: -1328802631
+ Long value: 3552506557164006425
+ Char value: 	
+P1 acquire Sem2
+P1 start waiting for Sem1
+Thread5 changes: 
+P4 add_elem: top = 41; elem = 41
+ Byte value: 91
+ Short value: 18518
+ Int value: -1328802631
+ Long value: 8367441349884429138
+ Char value: 
+P1 finish waiting for Sem1
+P4 release Sem1
+P4 start waiting for Sem2
+P5 add_elem: top = 42; elem = 42
+Thread5 changes: 
+P4 finish waiting for Sem2
+ Byte value: 0
+ Short value: 28512
+ Int value: -1328802631
+ Long value: 6843452838167659365
+ Char value: ²
+P2 get_elem: top = 41
+Thread2 changes: 
+P3 get_elem: top = 40
+ Byte value: 26
+ Short value: 28512
+ Int value: -1524869035
+ Long value: 5707330955043243084
+ Char value: q
+P1 add_elem: top = 41; elem = 41
+P1 acquire Sem2
+P1 start waiting for Sem1
+P4 add_elem: top = 42; elem = 42
+Thread3 changes: 
+P4 release Sem1
+P4 start waiting for Sem2
+P1 finish waiting for Sem1
+ Byte value: 26
+ Short value: 26206
+ Int value: -461241432
+ Long value: 7885266553983195372
+ Char value: Ü
+P1 add_elem: top = 43; elem = 43
+P1 acquire Sem2
+P1 start waiting for Sem1
+P4 finish waiting for Sem2
+P5 add_elem: top = 44; elem = 44
+Thread5 changes: 
+P2 get_elem: top = 43
+ Byte value: 110
+ Short value: 8440
+ Int value: -461241432
+ Long value: -3781958539990284033
+ Char value: 
+P3 get_elem: top = 42
+Thread2 changes: 
+P4 add_elem: top = 43; elem = 43
+ Byte value: 21
+ Short value: 8440
+ Int value: 1596385855
+ Long value: 1668819653241478656
+ Char value: U
+P4 release Sem1
+P4 start waiting for Sem2
+P1 finish waiting for Sem1
+Thread3 changes: 
+P4 finish waiting for Sem2
+ Byte value: 21
+ Short value: 16871
+ Int value: -29138444
+ Long value: -3455531857925949938
+ Char value: 
+P1 add_elem: top = 44; elem = 44
+P1 acquire Sem2
+P1 start waiting for Sem1
+P5 add_elem: top = 45; elem = 45
+Thread5 changes: 
+P3 get_elem: top = 44
+P2 get_elem: top = 43
+ Byte value: 43
+ Short value: 30007
+ Int value: -29138444
+ Long value: 3662510182600297560
+ Char value: ü
+P4 add_elem: top = 44; elem = 44
+P4 release Sem1
+P4 start waiting for Sem2
+P1 finish waiting for Sem1
+Thread3 changes: 
+P4 finish waiting for Sem2
+ Byte value: 43
+ Short value: 21337
+ Int value: -654843332
+ Long value: -7586074857886412638
+ Char value: Ò
+P1 add_elem: top = 45; elem = 45
+Thread2 changes: 
+P4 add_elem: top = 46; elem = 46
+P4 release Sem1
+P4 start waiting for Sem2
+P1 acquire Sem2
+P1 start waiting for Sem1
+P4 finish waiting for Sem2
+ Byte value: 28
+ Short value: 21337
+ Int value: 558399120
+ Long value: -4902838334816697287
+ Char value: X
+P4 add_elem: top = 47; elem = 47
+P1 finish waiting for Sem1
+P4 release Sem1
+P4 start waiting for Sem2
+P1 add_elem: top = 48; elem = 48
+P1 acquire Sem2
+P1 start waiting for Sem1
+P4 finish waiting for Sem2
+P3 get_elem: top = 47
+Thread3 changes: 
+P1 finish waiting for Sem1
+ Byte value: 28
+ Short value: 1343
+ Int value: -499510027
+ Long value: -4200515566810580269
+ Char value: ¶
+P5 add_elem: top = 48; elem = 48
+Thread5 changes: 
+P2 get_elem: top = 47
+ Byte value: 101
+ Short value: 1256
+ Int value: -499510027
+ Long value: -9066713678244639311
+ Char value: Ø
+Thread2 changes: 
+P1 add_elem: top = 48; elem = 48
+ Byte value: 28
+ Short value: 1256
+ Int value: 1695344081
+ Long value: 1299680398529519454
+ Char value: 
+P4 add_elem: top = 49; elem = 49
+P1 acquire Sem2
+P1 start waiting for Sem1
+P5 add_elem: top = 50; elem = 50
+P4 release Sem1
+P4 start waiting for Sem2
+Thread5 changes: 
+P1 finish waiting for Sem1
+ Byte value: 39
+ Short value: 21642
+ Int value: 1695344081
+ Long value: 6459003294450584607
+ Char value:  
+P3 get_elem: top = 49
+P4 finish waiting for Sem2
+Thread3 changes: 
+P2 get_elem: top = 48
+ Byte value: 39
+ Short value: 25304
+ Int value: -1342502570
+ Long value: 1299015324827596632
+ Char value: û
+P4 add_elem: top = 49; elem = 49
+Thread2 changes: 
+P1 add_elem: top = 50; elem = 50
+P1 acquire Sem2
+P1 start waiting for Sem1
+P4 release Sem1
+P4 start waiting for Sem2
+P1 finish waiting for Sem1
+ Byte value: 80
+ Short value: 25304
+ Int value: -524000782
+ Long value: -2561964458763231086
+ Char value: Û
+P1 add_elem: top = 51; elem = 51
+P1 acquire Sem2
+P1 start waiting for Sem1
+P4 finish waiting for Sem2
+P2 get_elem: top = 50
+Thread2 changes: 
+P3 get_elem: top = 49
+ Byte value: 19
+ Short value: 25304
+ Int value: 1954633014
+ Long value: 8925304595631947291
+ Char value: "
+P4 add_elem: top = 50; elem = 50
+P4 release Sem1
+P4 start waiting for Sem2
+P1 finish waiting for Sem1
+P5 add_elem: top = 51; elem = 51
+Thread3 changes: 
+P4 finish waiting for Sem2
+P1 add_elem: top = 52; elem = 52
+ Byte value: 19
+ Short value: 20862
+ Int value: 1057199663
+ Long value: -3582558288371974872
+ Char value: M
+P1 acquire Sem2
+P1 start waiting for Sem1
+Thread5 changes: 
+P4 add_elem: top = 53; elem = 53
+ Byte value: 5
+ Short value: 27829
+ Int value: 1057199663
+ Long value: -4129994400370756537
+ Char value: °
+P1 finish waiting for Sem1
+P4 release Sem1
+P4 start waiting for Sem2
+P5 add_elem: top = 54; elem = 54
+P4 finish waiting for Sem2
+P3 get_elem: top = 53
+Thread5 changes: 
+P1 add_elem: top = 54; elem = 54
+ Byte value: 67
+ Short value: 4123
+ Int value: 1057199663
+ Long value: 1970910532847306636
+ Char value: 3
+P1 acquire Sem2
+P1 start waiting for Sem1
+P2 get_elem: top = 53
+Thread3 changes: 
+P4 add_elem: top = 54; elem = 54
+ Byte value: 67
+ Short value: 15162
+ Int value: 1226146471
+ Long value: -4276543542823762876
+ Char value: 
+P4 release Sem1
+P4 start waiting for Sem2
+Thread2 changes: 
+P1 finish waiting for Sem1
+ Byte value: 56
+ Short value: 15162
+ Int value: -2076762642
+ Long value: -8751266325347562889
+ Char value: Ï
+P4 finish waiting for Sem2
+P1 add_elem: top = 55; elem = 55
+P1 acquire Sem2
+P1 start waiting for Sem1
+P5 add_elem: top = 56; elem = 56
+Thread5 changes: 
+P4 add_elem: top = 57; elem = 57
+ Byte value: 118
+ Short value: 31798
+ Int value: -2076762642
+ Long value: -8729670904607941025
+ Char value: Ý
+P1 finish waiting for Sem1
+P4 release Sem1
+P4 start waiting for Sem2
+P2 get_elem: top = 56
+P4 finish waiting for Sem2
+P1 add_elem: top = 57; elem = 57
+Thread2 changes: 
+P3 get_elem: top = 56
+P1 acquire Sem2
+P1 start waiting for Sem1
+ Byte value: 40
+ Short value: 31798
+ Int value: -802732065
+ Long value: 5007201062798912520
+ Char value: Á
+P4 add_elem: top = 57; elem = 57
+Thread3 changes: 
+P1 finish waiting for Sem1
+P4 release Sem1
+P4 start waiting for Sem2
+P1 add_elem: top = 58; elem = 58
+P1 acquire Sem2
+P1 start waiting for Sem1
+ Byte value: 40
+ Short value: 13731
+ Int value: 41194091
+ Long value: 8725702028241526638
+ Char value: ¹
+P4 finish waiting for Sem2
+P3 get_elem: top = 57
+Thread3 changes: 
+P2 get_elem: top = 56
+ Byte value: 40
+ Short value: 30179
+ Int value: 1352055934
+ Long value: 4368995254757186020
+ Char value: Ç
+P5 add_elem: top = 57; elem = 57
+Thread2 changes: 
+P4 add_elem: top = 58; elem = 58
+ Byte value: 106
+ Short value: 30179
+ Int value: -1137905019
+ Long value: -8951317530277717503
+ Char value: 
+P1 finish waiting for Sem1
+P4 release Sem1
+P4 start waiting for Sem2
+P4 finish waiting for Sem2
+P1 add_elem: top = 59; elem = 59
+Thread5 changes: 
+P1 acquire Sem2
+P1 start waiting for Sem1
+P4 add_elem: top = 60; elem = 60
+ Byte value: 40
+ Short value: 10296
+ Int value: -1137905019
+ Long value: -6192415884129292541
+ Char value: >
+P1 finish waiting for Sem1
+P4 release Sem1
+P4 start waiting for Sem2
+P5 add_elem: top = 61; elem = 61
+P4 finish waiting for Sem2
+P3 get_elem: top = 60
+Thread5 changes: 
+P2 get_elem: top = 59
+ Byte value: 27
+ Short value: 21095
+ Int value: -1137905019
+ Long value: 5097882202238235823
+ Char value: 5
+P1 add_elem: top = 60; elem = 60
+P1 acquire Sem2
+P1 start waiting for Sem1
+P4 add_elem: top = 61; elem = 61
+Thread3 changes: 
+P4 release Sem1
+P4 start waiting for Sem2
+P1 finish waiting for Sem1
+ Byte value: 27
+ Short value: 24057
+ Int value: 599457497
+ Long value: -401443237198360878
+ Char value: q
+P1 add_elem: top = 62; elem = 62
+P1 acquire Sem2
+P1 start waiting for Sem1
+P4 finish waiting for Sem2
+Thread2 changes: 
+P4 add_elem: top = 63; elem = 63
+ Byte value: 16
+ Short value: 24057
+ Int value: 1147328295
+ Long value: 3755100221516191855
+ Char value: 
+P4 release Sem1
+P4 start waiting for Sem2
+P1 finish waiting for Sem1
+P2 get_elem: top = 62
+P4 finish waiting for Sem2
+Thread2 changes: 
+P4 add_elem: top = 63; elem = 63
+ Byte value: 102
+ Short value: 24057
+ Int value: -1500743368
+ Long value: -3575386328212175155
+ Char value: ê
+P1 add_elem: top = 64; elem = 64
+P4 release Sem1
+P4 start waiting for Sem2
+P1 acquire Sem2
+P1 start waiting for Sem1
+P3 get_elem: top = 63
+P4 finish waiting for Sem2
+P5 add_elem: top = 64; elem = 64
+Thread3 changes: 
+P1 finish waiting for Sem1
+P4 add_elem: top = 65; elem = 65
+ Byte value: 102
+ Short value: 11972
+ Int value: 215127525
+ Long value: 2820921922350453585
+ Char value: ë
+P1 add_elem: top = 66; elem = 66
+P1 acquire Sem2
+P1 start waiting for Sem1
+P4 release Sem1
+P4 start waiting for Sem2
+P1 finish waiting for Sem1
+Thread5 changes: 
+P1 add_elem: top = 67; elem = 67
+P1 acquire Sem2
+P1 start waiting for Sem1
+P4 finish waiting for Sem2
+ Byte value: 9
+ Short value: 211
+ Int value: 215127525
+ Long value: -8039697072226326968
+ Char value: «
+P4 add_elem: top = 68; elem = 68
+P4 release Sem1
+P4 start waiting for Sem2
+P1 finish waiting for Sem1
+P3 get_elem: top = 67
+P4 finish waiting for Sem2
+Thread3 changes: 
+P2 get_elem: top = 66
+ Byte value: 9
+ Short value: 26857
+ Int value: 2069225509
+ Long value: 5830285584410634298
+ Char value: 2
+P5 add_elem: top = 67; elem = 67
+Thread2 changes: 
+P4 add_elem: top = 68; elem = 68
+ Byte value: 13
+ Short value: 26857
+ Int value: -2014419724
+ Long value: 1716140575856421201
+ Char value: 
+P1 add_elem: top = 69; elem = 69
+P1 acquire Sem2
+P1 start waiting for Sem1
+P4 release Sem1
+P4 start waiting for Sem2
+Thread5 changes: 
+P1 finish waiting for Sem1
+ Byte value: 13
+ Short value: 25561
+ Int value: -2014419724
+ Long value: 7737594804441295849
+ Char value: s
+P4 finish waiting for Sem2
+P1 add_elem: top = 70; elem = 70
+P1 acquire Sem2
+P1 start waiting for Sem1
+P3 get_elem: top = 69
+Thread3 changes: 
+P2 get_elem: top = 68
+ Byte value: 13
+ Short value: 21754
+ Int value: -1809154202
+ Long value: -5934629882572315610
+ Char value: R
+Thread2 changes: 
+P4 add_elem: top = 69; elem = 69
+ Byte value: 45
+ Short value: 21754
+ Int value: -795044654
+ Long value: -9041924959337814059
+ Char value: ò
+P4 release Sem1
+P4 start waiting for Sem2
+P1 finish waiting for Sem1
+P5 add_elem: top = 70; elem = 70
+P4 finish waiting for Sem2
+Thread5 changes: 
+P4 add_elem: top = 71; elem = 71
+ Byte value: 12
+ Short value: 10132
+ Int value: -795044654
+ Long value: -3746814531377538896
+ Char value: N
+P1 add_elem: top = 72; elem = 72
+P4 release Sem1
+P4 start waiting for Sem2
+P1 acquire Sem2
+P1 start waiting for Sem1
+P2 get_elem: top = 71
+P1 finish waiting for Sem1
+P4 finish waiting for Sem2
+P3 get_elem: top = 70
+Thread2 changes: 
+ Byte value: 0
+ Short value: 10132
+ Int value: -266559159
+ Long value: -4424757600616757587
+ Char value: é
+Thread3 changes: 
+P5 add_elem: top = 71; elem = 71
+ Byte value: 0
+ Short value: 31372
+ Int value: 248705450
+ Long value: 3112201094036461306
+ Char value: ;
+P4 add_elem: top = 72; elem = 72
+P4 release Sem1
+P4 start waiting for Sem2
+P1 add_elem: top = 73; elem = 73
+Thread5 changes: 
+P1 acquire Sem2
+P1 start waiting for Sem1
+P4 finish waiting for Sem2
+ Byte value: 31
+ Short value: 22065
+ Int value: 248705450
+ Long value: 9098485515298357538
+ Char value: 
+P4 add_elem: top = 74; elem = 74
+P1 finish waiting for Sem1
+P4 release Sem1
+P4 start waiting for Sem2
+P1 add_elem: top = 75; elem = 75
+P1 acquire Sem2
+P1 start waiting for Sem1
+P1 finish waiting for Sem1
+P4 finish waiting for Sem2
+P3 get_elem: top = 74
+Thread3 changes: 
+P2 get_elem: top = 73
+ Byte value: 31
+ Short value: 26104
+ Int value: -778242339
+ Long value: 5441620668239279023
+ Char value: ª
+P5 add_elem: top = 74; elem = 74
+Thread2 changes: 
+ Byte value: 6
+ Short value: 26104
+ Int value: 1864350643
+ Long value: 6516262832619071267
+ Char value: a
+Thread5 changes: 
+P4 add_elem: top = 75; elem = 75
+ Byte value: 31
+ Short value: 6343
+ Int value: 1864350643
+ Long value: -969755866838515332
+ Char value: s
+P4 release Sem1
+P4 start waiting for Sem2
+P5 add_elem: top = 76; elem = 76
+Thread5 changes: 
+P1 add_elem: top = 77; elem = 77
+ Byte value: 88
+ Short value: 30446
+ Int value: 1864350643
+ Long value: -416756648964061268
+ Char value: j
+P3 get_elem: top = 76
+P4 finish waiting for Sem2
+P1 acquire Sem2
+P1 start waiting for Sem1
+Thread3 changes: 
+P2 get_elem: top = 75
+ Byte value: 88
+ Short value: 7758
+ Int value: 1656008029
+ Long value: -193130387458952433
+ Char value: ï
+P1 finish waiting for Sem1
+Thread2 changes: 
+P4 add_elem: top = 76; elem = 76
+ Byte value: 34
+ Short value: 7758
+ Int value: 1223684260
+ Long value: -4086777246673320031
+ Char value: s
+P1 add_elem: top = 77; elem = 77
+P4 release Sem1
+P4 start waiting for Sem2
+P4 finish waiting for Sem2
+P1 acquire Sem2
+P1 start waiting for Sem1
+P4 add_elem: top = 78; elem = 78
+P1 finish waiting for Sem1
+P3 get_elem: top = 77
+P4 release Sem1
+P4 start waiting for Sem2
+P5 add_elem: top = 78; elem = 78
+Thread3 changes: 
+P2 get_elem: top = 77
+P1 add_elem: top = 78; elem = 78
+P1 acquire Sem2
+P1 start waiting for Sem1
+P1 finish waiting for Sem1
+P1 add_elem: top = 79; elem = 79
+P1 acquire Sem2
+P1 start waiting for Sem1
+ Byte value: 34
+ Short value: 31840
+ Int value: 909499525
+ Long value: -1786602071628722690
+ Char value: J
+P4 finish waiting for Sem2
+P4 add_elem: top = 80; elem = 80
+P4 release Sem1
+P4 start waiting for Sem2
+P1 finish waiting for Sem1
+Thread5 changes: 
+P4 finish waiting for Sem2
+ Byte value: 119
+ Short value: 12874
+ Int value: 909499525
+ Long value: -5611588223703416416
+ Char value: ¯
+P1 add_elem: top = 81; elem = 81
+Thread2 changes: 
+P4 add_elem: top = 82; elem = 82
+P4 release Sem1
+P4 start waiting for Sem2
+P1 acquire Sem2
+P1 start waiting for Sem1
+P4 finish waiting for Sem2
+ Byte value: 75
+ Short value: 12874
+ Int value: 1790300042
+ Long value: -2891157821174631861
+ Char value: Q
+P4 add_elem: top = 83; elem = 83
+P1 finish waiting for Sem1
+P2 get_elem: top = 82
+P4 release Sem1
+P4 start waiting for Sem2
+Thread2 changes: 
+P1 add_elem: top = 83; elem = 83
+ Byte value: 97
+ Short value: 12874
+ Int value: 729087794
+ Long value: 8353970656531933080
+ Char value: q
+P4 finish waiting for Sem2
+P5 add_elem: top = 84; elem = 84
+P1 acquire Sem2
+P1 start waiting for Sem1
+P3 get_elem: top = 83
+Thread5 changes: 
+P1 finish waiting for Sem1
+P4 add_elem: top = 84; elem = 84
+ Byte value: 52
+ Short value: 8195
+ Int value: 729087794
+ Long value: 5167959465994429515
+ Char value: D
+P4 release Sem1
+P1 add_elem: top = 85; elem = 85
+P1 acquire Sem2
+P1 start waiting for Sem1
+P1 finish waiting for Sem1
+P1 add_elem: top = 86; elem = 86
+P1 acquire Sem2
+P1 start waiting for Sem1
+Thread3 changes: 
+P4 start waiting for Sem2
+P4 finish waiting for Sem2
+ Byte value: 52
+ Short value: 14789
+ Int value: 1308870240
+ Long value: -7629776502302942582
+ Char value: \
+P4 add_elem: top = 87; elem = 87
+P4 release Sem1
+P4 start waiting for Sem2
+P1 finish waiting for Sem1
+P5 add_elem: top = 88; elem = 88
+P4 finish waiting for Sem2
+P3 get_elem: top = 87
+P2 get_elem: top = 86
+Thread5 changes: 
+ Byte value: 45
+ Short value: 20818
+ Int value: 1308870240
+ Long value: 9214956631582069234
+ Char value: 
+P4 add_elem: top = 87; elem = 87
+P4 release Sem1
+P4 start waiting for Sem2
+P1 add_elem: top = 88; elem = 88
+P1 acquire Sem2
+P1 start waiting for Sem1
+P1 finish waiting for Sem1
+P1 add_elem: top = 89; elem = 89
+P1 acquire Sem2
+P1 start waiting for Sem1
+P4 finish waiting for Sem2
+P4 add_elem: top = 90; elem = 90
+P4 release Sem1
+P4 start waiting for Sem2
+P4 finish waiting for Sem2
+P4 add_elem: top = 91; elem = 91
+P4 release Sem1
+P4 start waiting for Sem2
+P1 finish waiting for Sem1
+P1 add_elem: top = 92; elem = 92
+P1 acquire Sem2
+P1 start waiting for Sem1
+P1 finish waiting for Sem1
+P1 add_elem: top = 93; elem = 93
+P1 acquire Sem2
+P1 start waiting for Sem1
+Thread3 changes: 
+P4 finish waiting for Sem2
+ Byte value: 45
+ Short value: 1385
+ Int value: -1070469812
+ Long value: 6276386834544794130
+ Char value: ê
+P4 add_elem: top = 94; elem = 94
+Thread2 changes: 
+P1 finish waiting for Sem1
+P4 release Sem1
+P4 start waiting for Sem2
+P1 add_elem: top = 95; elem = 95
+ Byte value: 83
+ Short value: 1385
+ Int value: 1936695675
+ Long value: -2613096047148165474
+ Char value: ð
+P1 acquire Sem2
+P1 start waiting for Sem1
+P4 finish waiting for Sem2
+P2 get_elem: top = 94
+Thread2 changes: 
+ Byte value: 9
+ Short value: 1385
+ Int value: -1090012250
+ Long value: -2562629171768558155
+ Char value: !
+P3 get_elem: top = 93
+Thread3 changes: 
+ Byte value: 9
+ Short value: 7182
+ Int value: -580822435
+ Long value: -1211612721393341760
+ Char value: µ
+P5 add_elem: top = 94; elem = 94
+Thread5 changes: 
+ Byte value: 97
+ Short value: 12248
+ Int value: -580822435
+ Long value: 5891324355919293915
+ Char value: 
+P2 get_elem: top = 93
+Thread2 changes: 
+ Byte value: 6
+ Short value: 12248
+ Int value: -1567415602
+ Long value: -4800530936109212050
+ Char value: 
+P5 add_elem: top = 94; elem = 94
+Thread5 changes: 
+ Byte value: 80
+ Short value: 26810
+ Int value: -1567415602
+ Long value: -5765559887086594362
+ Char value: æ
+P4 add_elem: top = 95; elem = 95
+P4 release Sem1
+P4 start waiting for Sem2
+P1 finish waiting for Sem1
+P3 get_elem: top = 94
+P4 finish waiting for Sem2
+Thread3 changes: 
+P4 add_elem: top = 95; elem = 95
+ Byte value: 80
+ Short value: 22671
+ Int value: 2038002412
+ Long value: 8434580220091085622
+ Char value: 
+P1 add_elem: top = 96; elem = 96
+P1 acquire Sem2
+P1 start waiting for Sem1
+P1 finish waiting for Sem1
+P4 release Sem1
+P4 start waiting for Sem2
+P3 get_elem: top = 95
+P4 finish waiting for Sem2
+P5 add_elem: top = 96; elem = 96
+Thread3 changes: 
+P2 get_elem: top = 95
+ Byte value: 80
+ Short value: 9701
+ Int value: -1261222267
+ Long value: -7811767146683010519
+ Char value: K
+P4 add_elem: top = 96; elem = 96
+P4 release Sem1
+P4 start waiting for Sem2
+P1 add_elem: top = 97; elem = 97
+Thread5 changes: 
+P1 acquire Sem2
+P1 start waiting for Sem1
+P4 finish waiting for Sem2
+ Byte value: 68
+ Short value: 19515
+ Int value: -1261222267
+ Long value: 7873014630399286780
+ Char value: u
+P4 add_elem: top = 98; elem = 98
+P4 release Sem1
+P4 start waiting for Sem2
+P1 finish waiting for Sem1
+Thread2 changes: 
+P1 add_elem: top = 99; elem = 99
+ Byte value: 1
+ Short value: 19515
+ Int value: 876019561
+ Long value: -2947695324454088365
+ Char value: Ð
+P1 acquire Sem2
+P1 start waiting for Sem1
+P4 finish waiting for Sem2
+P2 get_elem: top = 98
+P1 finish waiting for Sem1
+Thread2 changes: 
+P1 add_elem: top = 99; elem = 99
+ Byte value: 123
+ Short value: 19515
+ Int value: 2082171266
+ Long value: 1643964885188658966
+ Char value: 
+P1 acquire Sem2
+P1 start waiting for Sem1
+P3 get_elem: top = 98
+Thread3 changes: 
+P4 add_elem: top = 99; elem = 99
+ Byte value: 123
+ Short value: 21601
+ Int value: -1799561313
+ Long value: -1943465313918769547
+ Char value: c
+P1 finish waiting for Sem1
+P4 release Sem1
+P4 start waiting for Sem2
+P4 finish waiting for Sem2

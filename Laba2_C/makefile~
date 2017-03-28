@@ -1,0 +1,16 @@
+.PHONY: clean
+
+Laba2: main.o input.o search.o output.o
+	gcc main.o input.o search.o output.o -o Laba2
+search.o: search.c 
+	gcc -c search.c -o search.o
+input.o: input.c
+	gcc -c input.c -o input.o
+output.o: output.c
+	gcc -c output.c -o output.o
+main.o: main.c
+	gcc -c main.c -o main.o
+
+clean:
+	rm -rf Laba2 *.o
+

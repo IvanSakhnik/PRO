@@ -1,0 +1,23 @@
+package Sh;
+public class Search{
+	public static void Search_value(int array[][], int m, int n, int value){
+		int index_i = -1, index_j = -1;
+		for (int j=0; j<n; j++){
+			for(int i=0; i<m; i++)
+				if (array[i][j] == value){
+					index_i = i;
+					index_j = j;
+					break;
+				}
+		if (index_i != -1 || index_j != -1)
+			break;
+		}
+		if (index_i != -1 || index_j != -1){
+			index_i += 1;
+			index_j += 1;
+			System.out.println("Element "+value+" found at position "+index_i+"-"+index_j);
+		}
+		else 
+			System.out.println("Element "+value+" not found");
+	}	
+}	

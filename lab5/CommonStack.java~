@@ -1,0 +1,44 @@
+import java.util.Stack;
+import java.util.concurrent.locks.Condition;
+import java.util.concurrent.locks.ReentrantLock;
+
+public class CommonStack{
+
+	private static final int MaxSize = 99;
+
+   	private static Stack<Integer> stack = new Stack<Integer>();
+	private static final ReentrantLock mutex = new ReentrantLock();
+	private static final Condition not_empty = mutex.newCondition();
+	private static final Condition not_full = mutex.newCondition();
+
+    public static void pop(int threadNumber){
+	    mutex.lock();
+	    while (stack.size() == 0)
+		    try{
+			    not_full.await();
+		    }
+		    catch (InterruptedException e){
+			    e.printStackTrace();
+		    }
+
+            System.out.println("Thread" + threadNumber + " gets: " + stack.pop());
+	    not_empty.signal();
+	    mutex.unlock();
+    }
+
+    public static void push(int threadNumber){
+	    mutex.lock();
+	    while (stack.size() == MaxSize)
+		    try{
+			    not_empty.await();
+		    }
+		    catch (InterruptedException e){
+			    e.printStackTrace();
+		    }
+            stack.push(threadNumber);
+	    System.out.println("Thread" + threadNumber + " puts: " + threadNumber);
+
+	    not_full.signal();
+	    mutex.unlock();
+    }
+}

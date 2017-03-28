@@ -1,0 +1,9 @@
+public class Main{
+	public static void main(String[] args){
+		new Consumer(1);
+		new Consumer(2);
+		new Producer(3);
+		new Consumer(4);
+		new Consumer(5);
+	}
+}
